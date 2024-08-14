@@ -1,37 +1,30 @@
 [
   {
     "nome_c": "value11",
-    "nome popular": "value12",
+    "nome_p": "value12",
     "caracteristicas": "value13",
     "propriedade": "blank",
     "fotos": "link1"
   },
   {
     "nome_c": "value21",
-    "nome popular": "value22",
+    "nome_p": "value22",
     "caracteristicas": "value23",
     "propriedade": "blank",
     "fotos": "link2"
   },
   {
     "nome_c": "value31",
-    "nome popular": "value32",
+    "nome_p": "value32",
     "caracteristicas": "value33",
     "propriedade": "blank",
     "fotos": "link3"
   },
   {
     "nome_c": "value41",
-    "nome popular": "value42",
+    "nome_p": "value42",
     "caracteristicas": "value43",
     "propriedade": "blank",
     "fotos": "link4"
-  },
-  {
-    "nome_c": "value18",
-    "nome_p": "a",
-    "caracteristicas": "a",
-    "propriedades": "a",
-    "fotos": "a"
   }
 ]
