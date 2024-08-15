@@ -22,7 +22,7 @@ app.get('/alterar-planta', (req, res) => {
 })
 
 app.post('/alterar-planta', (req, res) => {
-    const { nome_c, alt_nome_p, alt_caracteristicas, alt_propriedades, alt_fotos} = req.body
+    const { nome_c, alt_nome_p, alt_caracteristicas, alt_propriedades, alt_fotos } = req.body
 
     const Index = plantas.findIndex(plantas => plantas.nome_c.toLowerCase() === nome_c.toLowerCase());
 
@@ -48,7 +48,7 @@ app.post('/alterar-planta', (req, res) => {
     res.send('<script>alert("Planta alterada com sucesso!"); window.location.href = "/";</script>')
 
 
-    
+
 })
 
 app.listen(port, () => {

@@ -34,7 +34,7 @@ app.get('/buscar-planta', (req, res) => {
                     <img src="${planta.fotos}" class="card-img-top" alt="${planta.nome_c}">
                     <div class="card-body">
                         <h5 class="card-title">${planta.nome_c}</h5>
-                        <p class="card-text"><strong>Nome Popular:</strong> ${planta.nome_p}</p>
+                        <p class="card-text"><strong>Nome Científico:</strong> ${planta.nome_p}</p>
                         <p class="card-text"><strong>Características:</strong> ${planta.caracteristicas}</p>
                         <p class="card-text"><strong>Propriedade:</strong> ${planta.propriedade}</p>
                     </div>

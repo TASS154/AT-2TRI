@@ -1,30 +1,58 @@
 [
   {
-    "nome_c": "value11",
-    "nome_p": "value12",
-    "caracteristicas": "value13",
-    "propriedade": "blank",
-    "fotos": "link1"
+    "nome_p": "Eucalyptus globulus",
+    "nome_c": "Eucalipto",
+    "caracteristicas": "Árvore alta, folhas longas e aromáticas, casca descamante, crescimento rápido.",
+    "propriedade": "Antisséptico, descongestionante, expectorante.",
+    "fotos": "https://i.ibb.co/Bc5bxPv/file1.png"
   },
   {
-    "nome_c": "value21",
-    "nome_p": "value22",
-    "caracteristicas": "value23",
-    "propriedade": "blank",
-    "fotos": "link2"
+    "nome_p": "Lavandula angustifolia",
+    "nome_c": "Lavanda",
+    "caracteristicas": "Arbusto perene, flores roxas perfumadas, folhas estreitas e prateadas.",
+    "propriedade": "Calmante, antisséptico, anti-inflamatório.",
+    "fotos": "https://i.ibb.co/10ZK17c/image.png"
   },
   {
-    "nome_c": "value31",
-    "nome_p": "value32",
-    "caracteristicas": "value33",
-    "propriedade": "blank",
-    "fotos": "link3"
+    "nome_p": "Rosmarinus officinalis",
+    "nome_c": "Alecrim",
+    "caracteristicas": "Arbusto aromático, folhas finas e verdes, flores azul-violeta.",
+    "propriedade": "Estimulante, digestivo, antioxidante.",
+    "fotos": "https://i.ibb.co/JrXWNDY/image.png"
   },
   {
-    "nome_c": "value41",
-    "nome_p": "value42",
-    "caracteristicas": "value43",
-    "propriedade": "blank",
-    "fotos": "link4"
+    "nome_p": "Mentha piperita",
+    "nome_c": "Hortelã-pimenta",
+    "caracteristicas": "Erva perene, folhas ovais e serrilhadas, aroma refrescante.",
+    "propriedade": "Digestivo, antiespasmódico, analgésico.",
+    "fotos": "https://i.ibb.co/mbvJtNY/file-1.png"
+  },
+  {
+    "nome_p": "Aloe vera",
+    "nome_c": "Babosa",
+    "caracteristicas": "Planta suculenta, folhas carnudas com bordas espinhosas, gel interno.",
+    "propriedade": "Cicatrizante, hidratante, anti-inflamatório.",
+    "fotos": "https://i.ibb.co/WGjjgW2/file-3-removebg-preview.png"
+  },
+  {
+    "nome_p": "Matricaria chamomilla",
+    "nome_c": "Camomila",
+    "caracteristicas": "Erva anual, flores brancas com centro amarelo, aroma suave.",
+    "propriedade": "Calmante, anti-inflamatório, digestivo.",
+    "fotos": "https://i.ibb.co/j4GY1L2/image.png"
+  },
+  {
+    "nome_p": "Thymus vulgaris",
+    "nome_c": "Tomilho",
+    "caracteristicas": "Arbusto perene, folhas pequenas e aromáticas, flores lilases.",
+    "propriedade": "Antisséptico, expectorante, antioxidante.",
+    "fotos": "https://i.ibb.co/vPZNJ69/image.png"
+  },
+  {
+    "nome_p": "Calendula officinalis",
+    "nome_c": "Calêndula",
+    "caracteristicas": "Erva anual, flores amarelo-alaranjadas, folhas lanceoladas.",
+    "propriedade": "Cicatrizante, anti-inflamatório, emoliente.",
+    "fotos": "https://i.ibb.co/PZ5XXwH/file-4.png"
   }
 ]

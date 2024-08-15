@@ -22,7 +22,7 @@ app.get('/excluir-planta', (req, res) => {
 })
 
 app.post('/excluir-planta', (req, res) => {
-    const  nome_c  = req.body.nome_c;
+    const nome_c = req.body.nome_c;
 
 
     const Index = plantas.findIndex(plantas => plantas.nome_c.toLowerCase() === nome_c.toLowerCase());
@@ -58,6 +58,6 @@ app.get('/excluir-confirmado-planta', (req, res) => {
     res.redirect('/')
 });
 
-app.listen(port, () =>{
+app.listen(port, () => {
     console.log(`http://localhost:${port}`)
 })

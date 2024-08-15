@@ -50,7 +50,7 @@ app.get('/alterar-planta', (req, res) => {
 })
 
 app.post('/alterar-planta', (req, res) => {
-    const { nome_c, alt_nome_p, alt_caracteristicas, alt_propriedades, alt_fotos} = req.body
+    const { nome_c, alt_nome_p, alt_caracteristicas, alt_propriedades, alt_fotos } = req.body
 
     const Index = plantas.findIndex(plantas => plantas.nome_c.toLowerCase() === nome_c.toLowerCase());
 
@@ -84,7 +84,7 @@ app.post('/alterar-planta', (req, res) => {
     `);
 
 
-    
+
 })
 
 app.get('/excluir-planta', (req, res) => {
@@ -92,7 +92,7 @@ app.get('/excluir-planta', (req, res) => {
 })
 
 app.post('/excluir-planta', (req, res) => {
-    const  nome_c  = req.body.nome_c;
+    const nome_c = req.body.nome_c;
 
 
     const Index = plantas.findIndex(plantas => plantas.nome_c.toLowerCase() === nome_c.toLowerCase());
@@ -137,18 +137,18 @@ app.get('/', (req, res) => {
                 <img src="${planta.fotos}" class="card-img-top" alt="${planta.nome_c}">
                 <div class="card-body">
                     <h5 class="card-title">${planta.nome_c}</h5>
-                    <p class="card-text"><strong>Nome Popular:</strong> ${planta.nome_p}</p>
+                    <p class="card-text"><strong>Nome Científico:</strong> ${planta.nome_p}</p>
                     <p class="card-text"><strong>Características:</strong> ${planta.caracteristicas}</p>
                     <p class="card-text"><strong>Propriedade:</strong> ${planta.propriedade}</p>
                 </div>
             </div>
         </div>
         `;
-})
-const htmlContent = fs.readFileSync('index.html', 'utf-8');
-const finalHtml = htmlContent.replace('{{cards}}', cards);
+    })
+    const htmlContent = fs.readFileSync('index.html', 'utf-8');
+    const finalHtml = htmlContent.replace('{{cards}}', cards);
 
-res.send(finalHtml);
+    res.send(finalHtml);
 });
 
 app.get('/', (req, res) => {
